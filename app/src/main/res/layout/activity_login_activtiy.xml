@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a1a1a"
+    android:color="@android:color/white"
+    android:orientation="vertical"
+
+    >
+
+    <FrameLayout
+        android:id="@+id/mainicon"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+
+        android:layout_marginLeft="@dimen/right_margin"
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_marginRight="@dimen/left_margin"
+        android:background="@drawable/circle">
+
+        <ImageView
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/top_margin2"
+            android:src="@drawable/ebokelarge" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/signintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainicon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Logga in / Sign In"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signintext"
+
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/useremail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rectangular_border"
+            android:hint="Användarnamn / UserName"
+            android:paddingLeft="@dimen/fab_margin"
+            android:singleLine="true"
+
+            android:textColorHint="@color/white" />
+
+
+        <EditText
+            android:id="@+id/userpassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:background="@drawable/rectangular_border"
+            android:hint="Lösenord / Password"
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/fab_margin"
+            android:singleLine="true"
+            android:textColorHint="@color/white" />
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:background="@drawable/rectangular_border_pink"
+            android:paddingLeft="@dimen/fab_margin"
+            android:text="Skicka / Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/lostPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:text="Förlorat ditt lösenord? / Lost your password?"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fab_margin" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/signUpBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:text="Har du inte ett konto? / Don't have an account? "
+            android:textColor="@color/white"
+            android:textSize="@dimen/fab_margin" />
+
+        <TextView
+            android:id="@+id/signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:text="Bli Medlem / Sign Up"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fab_margin" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

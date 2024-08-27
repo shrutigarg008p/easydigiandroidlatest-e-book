@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">eBokenKörkortB</string>
+    <string name="title_activity_splash_screen">EsyDigi</string>
+    <string name="title_activity_login_activtiy">LoginActivtiy</string>
+    <string name="title_activity_sign_up_actiivity">SignUpActiivity</string>
+    <string name="title_activity_forgot_passwor">ForgotPassworActivity</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_my_forms">My Forms</string>
+    <string name="Learners_warning">.Must be valid in order to practise driving and take the test
+        with the Swedish Transport Administration,both privately and throught a driving school.
+    </string>
+
+    <string name="learner_link"><u>The Swedish Transport Agency-learner\'s permit</u>
+    </string>
+    <string name="accompnying_warning">During a period in which you have valid introduction course
+        (an learner\'s permit),you may apply to practise driving with additional accompanying
+        drivrs,provided they have completed an introduction course during the last five years.
+
+        .Your introduction course must always be valid you want to practice driving privately.
+
+
+    </string>
+
+
+    <string name="course_link"><u> Swedish Transport Agency - introduction course</u>
+    </string>
+    <string name="driver_text">The accompnaying driver\'s introduction course must be valid when applying
+        for approvel.
+    </string>
+    <string name="driver_link"><u>Transportstyrelsen - handledare</u>
+    </string>
+    <string name="title_activity_main_setting_">MainSetting_Activity</string>
+    <string name="title_activity_main_setting">MainSetting</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="profile">Profile</string>
+    <string name="bookname">eBook - B</string>
+    <string name="checkList">Checklist</string>
+    <string name="reminder">Reminders to study</string>
+    <string name="setting">Settings</string>
+    <string name="logout">Logout</string>
+
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+
+    <string name="friday">Friday</string>
+
+
+    <string name="saturday">Saturday</string>
+
+
+    <string name="add">Add</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="home">Home</string>
+    <string name="change_language">change language</string>
+    <string name="settings">Settings</string>
+    <string name="notificationettings">Reminder to Study</string>
+    <string name="setTimeForNotification">Set Time for Notifications</string>
+    <string name="brightness">Brightness</string>
+    <string name="pleaseChoose">Choose Language</string>
+    <string name="English">English</string>
+    <string name="Swedish">Swedish</string>
+    <string name="myForm">My Forms</string>
+    <string name="Save">Save</string>
+    <string name="Validuntil">Valid until :</string>
+    <string name="MyAccompanyingDriver">My Accompanying Driver</string>
+    <string name="AccompanyingDriver1Name">Accompanying Driver 1</string>
+    <string name="Drivername">Name :</string>
+    <string name="Name">Name</string>
+    <string name="Introductioncoursevaliduntil">Introduction course valid until:</string>
+    <string name="Applicationapproved">Application approved?</string>
+    <string name="AccompanyingDriver2Name">Accompanying Driver 2 </string>
+    <string name="introductioncoursevaliduntil">introduction course valid until:</string>
+    <string name="AccompnayingDriver3name">Accompnaying Driver 3 </string>
+    <string name="MyLearnerPermit">My Learner\'s Permit</string>
+    <string name="MyIntroduction">My Introduction Course is valid until :</string>
+    <string name="Areyousuretologot">Are you sure to logout?</string>
+    <string name="Yes">"Yes"</string>
+    <string name="No">No</string>
+    <string name="ReminderStudy">Reminder to study will not work!</string>
+    <string name="MyProfile">Profile</string>
+    <string name="Email">Email</string>
+    <string name="DisplayName">DisplayName</string>
+    <string name="LicenseNumber">License Number</string>
+    <string name="Validity">Validity</string>
+    <string name="SUBMIT">Submit</string>
+    <string name="Submit">Submit</string>
+    <string name="CHANGEPASSWORD">Change Password</string>
+    <string name="Username">User name:</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Monday0430">Monday 04:30</string>
+    <string name="ReminderStudyforyourdrivinglicense">Reminder Study for your driving license!</string>
+    <string name="Wednesday1430">Wednesday 14:30</string>
+    <string name="NotificationSettings">Reminder to Study</string>
+    <string name="ChooseDayandTime">Choose Day and Time</string>
+    <string name="Done">Done</string>
+
+    <string name="Title">Title:</string>
+    <string name="Edition">Edition:</string>
+    <string name="isbn">ISBN:</string>
+    <string name="Author">Author:</string>
+    <string name="Illustrator">Illustrator:</string>
+    <string name="Photography">Photography:</string>
+    <string name="Contact">Contact:</string>
+    <string name="Publisher">Publisher:</string>
+    <string name="eBookCategoryBDrivingLicence">eBook – Category B Driving Licence</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="UserName">User Name:</string>
+    <string name="ReminderStudyAlert">  Reminder to study will not function when you are logged out!</string>
+    <string name="pleasEnter">Please enter valid email</string>
+    <string name="CurrentPasswrd">Please enter current password</string>
+    <string name="NewPasswrd">Please enter new password</string>
+    <string name="Confirm">Please enter  confirm password</string>
+    <string name="NewConfirm">New password and confirm password are not same</string>
+    <string name="ConfirmPasrd">Confirm Password</string>
+    <string name="CurrentPwdd">Current Password</string>
+    <string name="NewPwdd">New Password</string>
+    <string name="ConfirmPwdd">Confirm Password</string>
+    <string name="SwedishAudioPlayer">Swedish Audio Player</string>
+    <string name="AudioList">Audio List</string>
+    <string name="Valid">Valid until</string>
+    <string name="Date">Date:</string>
+    <string name="Special_conditions">Special conditions</string>
+    <string name="DrivingDark">Driving in the dark</string>
+    <string name="Slippery">Slippery road surfaces</string>
+    <string name="InstructorComment">Your &amp; instructor’s comment:</string>
+    <string name="EnterText">Enter text</string>
+    <string name="VehicleHandling">Vehicle handling</string>
+    <string name="Safetychecks">Safety checks</string>
+    <string name="Parking_turning">Parking</string>
+    <string name="Reversing">Reversing</string>
+    <string name="Hillstarts">Hill starts</string>
+    <string name="UseOfbuttonscontrols">Use of buttons &amp; controls</string>
+    <string name="Braking">Braking</string>
+    <string name="Builtup_areas">Built-up areas</string>
+    <string name="Residentialareas">Driving in lane</string>
+    <string name="Pedestrian_crossings_bicycle_crossings">Pedestrian crossings, bicycle crossings</string>
+    <string name="Changing_lane">Changing lane</string>
+    <string name="Street_junctions"> Street junctions</string>
+    <string name="Signal_controlled_junctions">Signal controlled junctions</string>
+    <string name="Roundabouts">Roundabouts</string>
+    <string name="Passing_stationary_vehicles">Passing stationary vehicles</string>
+    <string name="Country_roads">Country roads</string>
+    <string name="Driving_on_narrow_roads">Driving on narrow roads</string>
+    <string name="Entering_driving_on">Entering &amp; driving on wide roads</string>
+    <string name="Turning_left">Turning left</string>
+<string name="Turning_right">Turning right</string>
+    <string name="Overtaking"> Overtaking</string>
+    <string name="Motorways">Motorways</string>
+    <string name="Built_up_areas_country_roads">Built-up areas, country roads</string>
+    <string name="Turning_around">Turning around</string>
+    <string name="Railway_crossings">Railway crossings</string>
+    <string name="Unprotectedroadusers">Unprotected road users</string>
+    <string name="Following_signs">Following signs</string>
+    <string name="Roadworks_areas"> Roadworks areas</string>
+    <string name="The_instructors_overall_assessment">The instructor’s overall assessment:</string>
+    <string name="Vehicle_awareness">Vehicle awareness:</string>
+    <string name="Manoeuvring">Manoeuvring:</string>
+    <string name="Environment">Environment:</string>
+    <string name="Road_traffic_rules">Road traffic rules:</string>
+    <string name="Scanning_routines">Scanning routines:</string>
+    <string name="Safety_margins">Safety margins:</string>
+    <string name="Adaptinginteracting">Adapting &amp; interacting:</string>
+    <string name="Speed">Speed:</string>
+    <string name="CourseReview">Course Review </string>
+    <string name="Chapter1">Chapter 1</string>
+    <string name="Chapter2">Chapter 2</string>
+    <string name="Chapter3">Chapter 3</string>
+    <string name="Chapter4">Chapter 4</string>
+    <string name="Chapter5">Chapter 5</string>
+    <string name="Chapter6">Chapter 6</string>
+    <string name="Chapter7">Chapter 7</string>
+    <string name="Chapter8">Chapter 8</string>
+    <string name="Chapter9">Chapter 9</string>
+    <string name="Chapter10">Chapter 10</string>
+    <string name="Chapter11">Chapter 11</string>
+    <string name="Chapter12">Chapter 12</string>
+    <string name="No_Audio_">No Audio Found</string>
+    <string name="one_year">Your one year subscription has been completed. Do you want to purchase again?</string>
+    <string name="no_data">No Data Found</string>
+    <string name="please_enetr_driver_date">Please enter accompanying driver valid date</string>
+    <string name="Accompnying_validity">Please also enter data in fields for:
+“My introduction course is valid until”
+and
+“Course Review Date”
+to save successfully.</string>
+    <string name="please_review_date">Please also enter data in “Course Review Date” to save successfully, this can be changed
+later.</string>
+
+
+</resources>

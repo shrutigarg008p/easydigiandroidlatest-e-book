@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.EsyDigi.esyDigi.MyForms">
+    />
+
+    <android.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:titleTextColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:text="@string/myForm" />
+
+        <TextView
+            android:id="@+id/savedetail"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_20sdp"
+
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginLeft="@dimen/_2sdp"
+
+
+            android:background="#00670A"
+            android:text="@string/Save"
+
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp" />
+    </android.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/MyLearnerPermit"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_20sdp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_15sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Validuntil"
+
+
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="0.9"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id="@+id/learnervalidity"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/Valid"
+                    android:focusable="false"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_margin="@dimen/_10sdp"
+                android:textSize="@dimen/_15sdp"
+                android:visibility="gone"
+                android:text="@string/Learners_warning" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#1E5FFF"
+                android:textStyle="italic"
+                android:autoLink="web"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:id="@+id/permitlink"
+                android:textSize="@dimen/_15sdp"
+                android:visibility="gone"
+                android:linksClickable="true"
+                android:text="@string/learner_link" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/MyAccompanyingDriver"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/learner_permit"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_20sdp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_15sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/MyIntroduction"
+
+
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id="@+id/accompanyvalidity"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/Valid"
+                    android:focusable="false"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_margin="@dimen/_10sdp"
+                android:textSize="@dimen/_15sdp"
+                android:visibility="gone"
+                android:text="@string/accompnying_warning" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#1E5FFF"
+                android:textStyle="italic"
+                android:autoLink="web"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:singleLine="true"
+                android:textSize="@dimen/_15sdp"
+                android:linksClickable="true"
+                android:visibility="gone"
+                android:id="@+id/course_link"
+                android:text="@string/course_link" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_margin="@dimen/_10sdp"
+                android:textSize="@dimen/_15sdp"
+                android:visibility="gone"
+
+                android:text="@string/driver_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#1E5FFF"
+                android:textStyle="italic"
+                android:autoLink="web"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:visibility="gone"
+
+                android:textSize="@dimen/_15sdp"
+                android:linksClickable="true"
+                android:id="@+id/driver_link"
+                android:text="@string/driver_link" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:text="@string/AccompanyingDriver1Name"
+
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_gravity="center"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+
+                    android:text="@string/Drivername"
+
+
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id="@+id/name1"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/Name"
+
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Introductioncoursevaliduntil"
+
+
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/Valid"
+                    android:focusable="false"
+                    android:id="@+id/valid1"
+
+
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Applicationapproved"
+
+
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:id="@+id/approve1"
+                    android:background="@drawable/round_rect_shape"
+
+
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_15sdp"
+
+                android:text="@string/AccompanyingDriver2Name"
+
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+
+                    android:text="@string/Drivername"
+
+
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id="@+id/name2"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/Name"
+
+
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/introductioncoursevaliduntil"
+
+
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/Valid"
+                    android:focusable="false"
+                    android:id="@+id/valid2"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Applicationapproved"
+
+
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+
+                    android:id="@+id/approve2"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:text="@string/AccompnayingDriver3name"
+                android:textStyle="bold"
+
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Drivername"
+
+
+
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:id="@+id/name3"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/Name"
+
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Introductioncoursevaliduntil"
+
+
+                    />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/Valid"
+                    android:focusable="false"
+                    android:id="@+id/valid3"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Applicationapproved" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:id="@+id/approve3"
+                    android:background="@drawable/round_rect_shape"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginLeft="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:weightSum="3">
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_2sdp"
+
+        android:layout_weight="0.75"
+        android:layout_gravity="center"
+        android:background="@color/view_line" />
+    <TextView
+        android:layout_width="0dp"
+        android:text="@string/CourseReview"
+        android:layout_weight="1.5"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="@dimen/_15sdp"
+        android:singleLine="true"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_2sdp"
+
+        android:layout_weight="0.75"
+        android:layout_gravity="center"
+        android:background="@color/view_line" />
+
+
+</LinearLayout>
+            <include
+                layout="@layout/item_myform_review"
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

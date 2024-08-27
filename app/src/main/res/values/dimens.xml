@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="top_margin">-100dp</dimen>
+    <dimen name="left_margin">-10dp</dimen>
+    <dimen name="right_margin">-10dp</dimen>
+    <dimen name="top_margin2">50dp</dimen>
+
+</resources>

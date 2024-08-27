@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.example.jean.jcplayer.view.JcPlayerView
+        android:id="@+id/jcplayer"
+        app:next_icon_color="@color/white"
+        app:previous_icon_color="@color/white"
+        android:layout_width="match_parent"
+        app:play_icon_color="@color/colorPrimary"
+        app:pause_icon_color="@color/colorPrimary"
+        app:repeat_icon_color="@color/white"
+        app:random_icon_color="@color/white"
+        android:layout_height="150dp"/>
+
+
+
+</LinearLayout>

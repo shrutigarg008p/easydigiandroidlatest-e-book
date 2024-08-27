@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_marginLeft="@dimen/_15sdp"
+    android:layout_marginRight="@dimen/_15sdp"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_7sdp"
+
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:text="@string/Date"
+
+
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_weight="1"
+            android:padding="@dimen/_5sdp"
+            android:singleLine="true"
+            android:id = "@+id/etdate"
+            android:layout_gravity="center"
+            android:textColorHint="#c0c0c0"
+            android:clickable="true"
+            android:background="@drawable/round_rect_shape"
+            android:hint="@string/Date"
+            android:focusable="false"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Special_conditions"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+
+        android:textStyle="bold"
+
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_7sdp"
+
+        android:weightSum="2">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:padding="@dimen/_5sdp"
+            android:singleLine="true"
+            android:id = "@+id/checkBoxDriving"
+            android:buttonTint="@color/black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:text="@string/DrivingDark"
+
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_7sdp"
+
+        android:weightSum="2">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:padding="@dimen/_5sdp"
+            android:singleLine="true"
+            android:id = "@+id/checkBoxSlippery"
+            android:buttonTint="@color/black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:text="@string/Slippery"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_7sdp"
+
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:text="@string/InstructorComment"
+
+
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_weight="0.9"
+            android:padding="@dimen/_5sdp"
+            android:singleLine="true"
+            android:id = "@+id/etInstructorComment"
+            android:layout_gravity="center"
+            android:textColorHint="#c0c0c0"
+            android:background="@drawable/round_rect_shape"
+            android:hint="@string/EnterText"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/VehicleHandling"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_7sdp"
+
+        android:weightSum="2">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:padding="@dimen/_5sdp"
+            android:singleLine="true"
+            android:id = "@+id/checkBoxSafetychecks"
+            android:buttonTint="@color/black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:text="@string/Safetychecks"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_7sdp"
+
+        android:weightSum="2">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:padding="@dimen/_5sdp"
+            android:singleLine="true"
+            android:id = "@+id/checkBoxParking"
+            android:buttonTint="@color/black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:text="@string/Parking_turning"
+            />
+    </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+            android:weightSum="2">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:id = "@+id/checkBoxHillStarts"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:text="@string/Reversing"
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxReversing"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Hillstarts"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxButtonControl"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/UseOfbuttonscontrols"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxBraking"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Braking"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/InstructorComment"
+
+
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="0.9"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/etInstructorComment2"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/EnterText"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Builtup_areas"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxResidential"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Residentialareas"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxPedestrian"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Pedestrian_crossings_bicycle_crossings"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxChanging"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Changing_lane"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxStreet"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Street_junctions"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxSignal"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Signal_controlled_junctions"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxRoundabout"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Roundabouts"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxPassing"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Passing_stationary_vehicles"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/InstructorComment"
+
+
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="0.9"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/etInstructorComment3"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/EnterText"
+
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Country_roads"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxEntering"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Driving_on_narrow_roads"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxDrivingNarrow"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+
+                    android:text="@string/Entering_driving_on"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxTurning"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Turning_left"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxTurningRight"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Turning_right"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxOvertaking"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Overtaking"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxMotorways"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Motorways"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/InstructorComment"
+
+
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="0.9"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/etInstructorComment4"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/EnterText"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Built_up_areas_country_roads"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxTurningAround"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Turning_around"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxRailway"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Railway_crossings"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxUnprotected"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Unprotectedroadusers"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxFollowingSigns"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Following_signs"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/checkBoxRoadworkAreas"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Roadworks_areas"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/InstructorComment"
+
+
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="0.9"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/etInstructorComment5"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:clickable="true"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/EnterText"
+
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/The_instructors_overall_assessment"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Vehicle_awareness"
+
+
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="0.9"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/etVEhicleawareness"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/EnterText"
+
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Manoeuvring"
+
+
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="0.9"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/etVmanoevring"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/EnterText"
+
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Environment"
+
+
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="0.9"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/etenvironment"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/EnterText"
+
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Road_traffic_rules"
+
+
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="0.9"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/etroadtraffic"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/EnterText"
+
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Scanning_routines"
+
+
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="0.9"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/etscanning"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/EnterText"
+
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+
+
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Safety_margins"
+
+
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="0.9"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/etsafetymargins"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/EnterText"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Adaptinginteracting"
+
+
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="0.9"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/etadapting"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/EnterText"
+
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:text="@string/Speed"
+
+
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_weight="0.9"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:id = "@+id/etspeed"
+                    android:layout_gravity="center"
+                    android:textColorHint="#c0c0c0"
+                    android:background="@drawable/round_rect_shape"
+                    android:hint="@string/EnterText"
+
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

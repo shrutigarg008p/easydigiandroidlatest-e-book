@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.EsyDigi.esyDigi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+
+        android:allowBackup="true"
+        android:appComponentFactory="whateverString"
+        android:icon="@drawable/launch_icon2"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/launch_icon2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:appComponentFactory">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:name="com.EsyDigi.esyDigi.BookCheckListActivity"></activity>
+        <activity
+            android:name="com.EsyDigi.esyDigi.AudioActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="com.EsyDigi.esyDigi.ReminderActivity" />
+        <activity
+            android:name="com.EsyDigi.esyDigi.ChangePassword"
+            android:label="@string/title_activity_change_password"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+       <!-- <activity
+            android:name=".utility.ChangePassword"
+            android:label="@string/title_activity_change_password"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />-->
+        <activity
+            android:name="com.EsyDigi.esyDigi.MainSetting"
+            android:label="@string/title_activity_main_setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+      <!--  <activity
+            android:name=".MainSetting_Activity"
+            android:label="@string/title_activity_main_setting_"
+            android:theme="@style/AppTheme.NoActionBar" />-->
+        <activity
+            android:name="com.EsyDigi.esyDigi.MyForms"
+            android:label="@string/title_activity_my_forms"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.EsyDigi.esyDigi.FormsNew"
+            android:label="@string/title_activity_my_forms"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.EsyDigi.esyDigi.TimerSettings"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.EsyDigi.esyDigi.MyProfile"
+            android:label="@string/title_activity_my_profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.EsyDigi.esyDigi.MainActivity"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.EsyDigi.esyDigi.SplashScreen"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.EsyDigi.esyDigi.LoginActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_login_activtiy"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.EsyDigi.esyDigi.SignUpActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_sign_up_actiivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.EsyDigi.esyDigi.ForgotPasswordActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_forgot_passwor"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service android:name="com.EsyDigi.esyDigi.Services.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.EsyDigi.esyDigi.Services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="122f4ba203155acc0a5a9677587acbe2bc419731" />
+    </application>
+
+</manifest>

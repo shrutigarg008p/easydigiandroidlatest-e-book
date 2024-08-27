@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">eBoken Körkort B</string>
+    <string name="bookname">eBoken - B</string>
+    <string name="profile">Profil</string>
+    <string name="title_activity_my_forms">Formulär</string>
+
+
+
+    <string name="reminder">
+Påminnelse att plugga</string>
+    <string name="setting">Inställningar</string>
+    <string name="logout">Logga ut</string>
+
+    <string name="home">Hem</string>
+    <string name="change_language">ändra språk</string>
+    <string name="settings">Inställningar</string>
+    <string name="notificationettings">Påminnelse om att studera</string>
+    <string name="setTimeForNotification">Ställ in tid för aviseringar</string>
+    <string name="brightness">Ljusstyrka</string>
+    <string name="pleaseChoose">Välj språk</string>
+    <string name="English">English</string>
+    <string name="Swedish">
+Svenska</string>
+
+    <string name="myForm">
+ Formulär</string>
+    <string name="Save">Spara</string>
+    <string name="Validuntil">Gäller till :</string>
+    <string name="MyAccompanyingDriver">Min Handledare</string>
+    <string name="AccompanyingDriver1Name">Handledare 1 </string>
+    <string name="Name">Namn</string>
+    <string name="Introductioncoursevaliduntil">Introduktionskurs gäller till:</string>
+    <string name="Applicationapproved">Godkänd ansökan ? </string>
+    <string name="AccompanyingDriver2Name">Handledare 2 </string>
+    <string name="introductioncoursevaliduntil">
+Introduktionskurs gäller till:</string>
+    <string name="AccompnayingDriver3name">Handledare 3 </string>
+    <string name="MyLearnerPermit">Mitt Körkortstillstånd</string>
+
+    <string name="Learners_warning">. Måste vara giltigt för att få övningsköra samt göra prov hos trafikverket, både privat och med trafikskola.
+    </string>
+
+    <string name="learner_link"><u>Transportstyrelsen - körkortstillstånd</u>
+    </string>
+    <string name="accompnying_warning">
+Under tiden du har en giltig introduktionskurs (och körkortstillstånd) kan du ansöka om att få övningsköra med fler handledare, om de har gått en introduktionskurs under de senaste 5 åren.
+        . Din introduktionskurs måste alltid vara giltig om du vill öva på att köra privat.
+
+    </string>
+    <string name="course_link"><u>Transportstyrelsen - introduktionsutbildning</u>
+    </string>
+    <string name="driver_text">
+ Handledarens introduktionskurs måste vara giltig när ni ansöker om godkännande för handledarskap.
+    </string>
+
+    <string name="Areyousuretologot">
+Är du säker på att logga ut?</string>
+    <string name="Yes">Ja</string>
+    <string name="No">Nej
+
+</string>
+
+    <string name="MyProfile">
+Profil</string>
+    <string name="Email">
+E-post</string>
+    <string name="DisplayName">
+Displayname</string>
+    <string name="LicenseNumber">
+Licensnummer</string>
+    <string name="Validity">Giltighet</string>
+    <string name="SUBMIT">Lämna</string>
+    <string name="CHANGEPASSWORD">
+Ändra Lösenord</string>
+    <string name="Username">
+        Användarnamn:</string>
+    <string name="Title">Titel:</string>
+    <string name="Edition">
+Utgåva:</string>
+    <string name="isbn">
+ISBN:</string>
+    <string name="Author">
+Författare:</string>
+    <string name="Illustrator">Illustratör:</string>
+    <string name="Photography">Fotografi:</string>
+    <string name="Contact">Kontakta:</string>
+    <string name="Publisher">Utgivare:</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Monday0430">Monday 04:30</string>
+    <string name="ReminderStudyforyourdrivinglicense">Reminder Study for your driving license!</string>
+    <string name="Wednesday1430">Wednesday 14:30</string>
+    <string name="NotificationSettings">
+
+Påminnelser</string>
+    <string name="ChooseDayandTime">
+
+Välj Dag &amp; Tid</string>
+
+    <string name="Submit">Skicka</string>
+    <string name="Done">
+Klar</string>
+    <string name="sunday">
+Söndag</string>
+    <string name="monday">Måndag</string>
+    <string name="tuesday">
+Tisdag</string>
+    <string name="wednesday">
+Onsdag</string>
+    <string name="thursday">
+Torsdag</string>
+    <string name="friday">
+Fredag</string>
+    <string name="saturday">
+Lördag</string>
+    <string name="add">
+Lägg till</string>
+    <string name="delete">
+Radera</string>
+    <string name="MyIntroduction">
+Min introduktionskurs är giltig tills :</string>
+    <string name="ReminderStudy">
+Påminnelse om att studera fungerar inte!</string>
+    <string name="UserName">
+Användarnamn:</string>
+    <string name="ReminderStudyAlert">
+Påminnelse att plugga kommer inte fungera när du är utloggad!</string>
+    <string name="pleasEnter">
+Ange giltigt e-postmeddelande</string>
+    <string name="CurrentPasswrd">
+        Ange det aktuella lösenordet
+    </string>
+    <string name="NewPasswrd">
+Ange nytt lösenord</string>
+    <string name="Confirm">
+Ange bekräfta lösenord</string>
+    <string name="NewConfirm">
+Nytt lösenord och bekräfta lösenord är inte samma</string>
+    <string name="ConfirmPasrd">
+        Bekräfta lösenord</string>
+    <string name="CurrentPwdd">
+Nuvarande lösenord</string>
+    <string name="NewPwdd">
+Nytt lösenord</string>
+    <string name="ConfirmPwdd">
+Bekräfta lösenord</string>
+    <string name="SwedishAudioPlayer">
+Ljudlista</string>
+    <string name="AudioList">
+Ljudlista</string>
+    <string name="Valid">
+Giltig Till</string>
+    <string name="checkList">Checklista</string>
+
+    <string name="Date">Datum:</string>
+    <string name="Special_conditions">Särskilda förhållanden</string>
+    <string name="DrivingDark">Mörkerkörning</string>
+    <string name="Slippery">Halt väglag</string>
+    <string name="InstructorComment">Din &amp; lärarens kommentar:</string>
+    <string name="EnterText">Skriv text</string>
+    <string name="VehicleHandling">Fordonshantering </string>
+    <string name="Safetychecks">Säkerhetskontroll</string>
+    <string name="Parking_turning">Parkering</string>
+    <string name="Reversing">Backning</string>
+    <string name="Hillstarts">Start i lutning</string>
+    <string name="UseOfbuttonscontrols">Användning av knappar &amp; reglage</string>
+    <string name="Braking">Bromsning</string>
+    <string name="Builtup_areas">Tätort </string>
+    <string name="Residentialareas">Körning i körfält </string>
+    <string name="Pedestrian_crossings_bicycle_crossings">Övergångsställe, cykelöverfart</string>
+    <string name="Changing_lane">Körfältsbyte</string>
+    <string name="Street_junctions"> Gatukorsning</string>
+    <string name="Signal_controlled_junctions">Trafikljus</string>
+    <string name="Roundabouts">Cirkulationsplats</string>
+    <string name="Passing_stationary_vehicles">Passerande av stillastående fordon</string>
+    <string name="Country_roads">Landsväg</string>
+    <string name="Driving_on_narrow_roads">Körning på smal väg </string>
+    <string name="Entering_driving_on">Infart &amp; körning på bred väg </string>
+    <string name="Turning_left">Vänstersväng</string>
+    <string name="Turning_right">Högersväng</string>
+    <string name="Overtaking"> Omkörning</string>
+    <string name="Motorways">Motorväg</string>
+    <string name="Built_up_areas_country_roads">Tätort, landsväg</string>
+    <string name="Turning_around">Vända </string>
+    <string name="Railway_crossings">Järnvägskorsning </string>
+    <string name="Unprotectedroadusers">Oskyddade trafikanter</string>
+    <string name="Following_signs">Följa skyltar</string>
+    <string name="Roadworks_areas"> Vägarbetsområde</string>
+    <string name="The_instructors_overall_assessment">Lärarens helhetsbedömning:</string>
+    <string name="Vehicle_awareness">Fordonskännedom:</string>
+    <string name="Manoeuvring">Manövrering:</string>
+    <string name="Environment">Miljö:</string>
+    <string name="Road_traffic_rules">Trafikregler:</string>
+    <string name="Scanning_routines">Avsökningsrutiner:</string>
+    <string name="Safety_margins">Säkerhetsmarginaler:</string>
+    <string name="Adaptinginteracting">Anpassning &amp; samspel:</string>
+    <string name="Speed">Hastighet:</string>
+    <string name="CourseReview">
+Utbildningskontroll </string>
+    <string name="Drivername">
+
+
+
+Namn :</string>
+
+    <string name="Chapter1">Kapitel 1</string>
+    <string name="Chapter2">Kapitel 2</string>
+    <string name="Chapter3">Kapitel 3</string>
+    <string name="Chapter4">Kapitel 4</string>
+    <string name="Chapter5">Kapitel 5</string>
+    <string name="Chapter6">Kapitel 6</string>
+    <string name="Chapter7">Kapitel 7</string>
+    <string name="Chapter8">Kapitel 8</string>
+    <string name="Chapter9">Kapitel 9</string>
+    <string name="Chapter10">Kapitel 10</string>
+    <string name="Chapter11">Kapitel 11</string>
+    <string name="Chapter12">Kapitel 12</string>
+    <string name="contents">
+Innehåll</string>
+    <string name="highlights">slingor  </string>
+
+    <string name="No_Audio_">inget ljud här</string>
+    <string name="one_year">Din ett års prenumeration har passerat, vill du förlänga?</string>
+    <string name="no_data">Ingen Påminnelse Inställd</string>
+    <string name="please_enetr_driver_date">Ange det medföljande förarens giltiga datum</string>
+    <string name="Accompnying_validity">Ange även data för:
+“Min introduktionskurs är giltig tills”
+och
+”Utbildningskontroll Datum”
+för att spara framgångsrikt.</string>
+    <string name="please_review_date">Ange även data i fält för ”Utbildningskontroll Datum” för att spara framgångsrikt, detta kan
+ändras senare.</string>
+</resources>

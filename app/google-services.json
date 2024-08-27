@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "361735251918",
+    "firebase_url": "https://esydigi-7e21e.firebaseio.com",
+    "project_id": "esydigi-7e21e",
+    "storage_bucket": "esydigi-7e21e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361735251918:android:0be93be6fd3f8e359e2d9f",
+        "android_client_info": {
+          "package_name": "com.EsyDigi.esyDigi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361735251918-89r91c2trt21mht02hbura42i2s7bdjf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.EsyDigi.esyDigi",
+            "certificate_hash": "87ea838d64e9637b62c35f599f60d2f049f5c7cc"
+          }
+        },
+        {
+          "client_id": "361735251918-10bi1lvdjg9f1j1pds4bum0qi7eocdtj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcB86eDrZb-Q5oqrjkKOQMUaNv5SgE5-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361735251918-10bi1lvdjg9f1j1pds4bum0qi7eocdtj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "361735251918-sk36ha9p4ug1a97odg7ubci03nvt4081.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.EsyDigi.esyDigi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361735251918:android:9fa11987e5e5782f",
+        "android_client_info": {
+          "package_name": "com.catexhealth.esydiginew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361735251918-qt71l6po0v1uepmvktgob989b3p2ook1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.catexhealth.esydiginew",
+            "certificate_hash": "87ea838d64e9637b62c35f599f60d2f049f5c7cc"
+          }
+        },
+        {
+          "client_id": "361735251918-4b674rdon58rbm4g5l7agcjm1jlrl03r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.catexhealth.esydiginew",
+            "certificate_hash": "d2732cec38035029081d0fd4190c6c58cb130dad"
+          }
+        },
+        {
+          "client_id": "361735251918-10bi1lvdjg9f1j1pds4bum0qi7eocdtj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcB86eDrZb-Q5oqrjkKOQMUaNv5SgE5-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361735251918-10bi1lvdjg9f1j1pds4bum0qi7eocdtj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "361735251918-sk36ha9p4ug1a97odg7ubci03nvt4081.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.EsyDigi.esyDigi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361735251918:android:f69faba05821c90e9e2d9f",
+        "android_client_info": {
+          "package_name": "com.EsyDigi.esyDigi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361735251918-murtv6e648njmjcnfrddepili2emc7ne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.EsyDigi.esyDigi",
+            "certificate_hash": "87ea838d64e9637b62c35f599f60d2f049f5c7cc"
+          }
+        },
+        {
+          "client_id": "361735251918-10bi1lvdjg9f1j1pds4bum0qi7eocdtj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcB86eDrZb-Q5oqrjkKOQMUaNv5SgE5-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361735251918-10bi1lvdjg9f1j1pds4bum0qi7eocdtj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "361735251918-sk36ha9p4ug1a97odg7ubci03nvt4081.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.EsyDigi.esyDigi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
